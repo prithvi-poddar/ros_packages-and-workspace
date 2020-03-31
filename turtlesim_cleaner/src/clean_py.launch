@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="prithvi_turtlesim_node" />
+    <param name="choice" value="1"/>
+    <node pkg="turtlesim_cleaner" type="clean.py" name="Turtlesim_cleaner_node"/>
+</launch>
